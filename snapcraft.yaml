@@ -1,4 +1,4 @@
-name: dosbox
+name: test-dosbox-filipm24
 version: "0.74-svn"
 summary: DOS emulator
 description: |
@@ -76,7 +76,7 @@ parts:
 
 apps:
   dosbox:
-    command: dosbox
+    command: test-dosbox-filipm24
     environment:
       "LD_LIBRARY_PATH": "$SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/pulseaudio"
       "DISABLE_WAYLAND": "1"
